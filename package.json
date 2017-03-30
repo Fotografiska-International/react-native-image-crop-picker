@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-crop-picker",
-  "version": "0.13.1",
+  "version": "0.13.2",
   "description": "Select single or multiple images, with croping option",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,9 @@
     "url": "https://github.com/ivpusic/react-native-image-crop-picker/issues"
   },
   "homepage": "https://github.com/ivpusic/react-native-image-crop-picker#readme",
-  "peerDependencies": {
-    "react-native": ">=0.40.0"
+  "peerDependencies": {},
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-native": "^0.42.3"
   }
 }
