@@ -13,7 +13,6 @@
 		347CE1701D6BB134002A8704 /* UIImage+Resize.h in Sources */ = {isa = PBXBuildFile; fileRef = 34963A931D6B919800F9CA2F /* UIImage+Resize.h */; };
 		34963AB11D6B96A800F9CA2F /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 34963A941D6B919800F9CA2F /* UIImage+Resize.m */; };
 		34EC4AB51D78FEC6001E9E86 /* QBImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34434E2E1D6F5EA300BF5063 /* QBImagePicker.framework */; };
-		45E56CC8B4FFFA7EB84412F9 /* libPods-imageCropPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784164EF463F23D70B65092 /* libPods-imageCropPicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +30,62 @@
 			remoteGlobalIDString = A5BE393D1B32B49D00ECDF88;
 			remoteInfo = RSKImageCropper;
 		};
+		51AD63CF1E8D545700F27262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		51AD63D11E8D545700F27262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		51AD63D31E8D545700F27262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		51AD63D51E8D545700F27262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		51AD63D71E8D545700F27262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		51AD63D91E8D545700F27262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		51AD63DB1E8D545700F27262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		51AD63DD1E8D545700F27262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +99,7 @@
 		34963A931D6B919800F9CA2F /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "UIImage-Resize/UIImage+Resize.h"; sourceTree = "<group>"; };
 		34963A941D6B919800F9CA2F /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "UIImage-Resize/UIImage+Resize.m"; sourceTree = "<group>"; };
 		5167AF671E8D460F008C7C0F /* RSKImageCropper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSKImageCropper.xcodeproj; path = RSKImageCropper/RSKImageCropper.xcodeproj; sourceTree = "<group>"; };
+		51AD63C41E8D545700F27262 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		8784164EF463F23D70B65092 /* libPods-imageCropPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-imageCropPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,7 +109,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				34EC4AB51D78FEC6001E9E86 /* QBImagePicker.framework in Frameworks */,
-				45E56CC8B4FFFA7EB84412F9 /* libPods-imageCropPicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +141,7 @@
 		34434E251D6F5E5600BF5063 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				51AD63C41E8D545700F27262 /* React.xcodeproj */,
 				5167AF671E8D460F008C7C0F /* RSKImageCropper.xcodeproj */,
 				34434E261D6F5EA300BF5063 /* QBImagePicker.xcodeproj */,
 			);
@@ -117,6 +173,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		51AD63C51E8D545700F27262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51AD63D01E8D545700F27262 /* libReact.a */,
+				51AD63D21E8D545700F27262 /* libReact.a */,
+				51AD63D41E8D545700F27262 /* libyoga.a */,
+				51AD63D61E8D545700F27262 /* libyoga.a */,
+				51AD63D81E8D545700F27262 /* libcxxreact.a */,
+				51AD63DA1E8D545700F27262 /* libcxxreact.a */,
+				51AD63DC1E8D545700F27262 /* libjschelpers.a */,
+				51AD63DE1E8D545700F27262 /* libjschelpers.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,10 +195,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3400A8111CEB54A6008A0BC7 /* Build configuration list for PBXNativeTarget "imageCropPicker" */;
 			buildPhases = (
-				5033EC66124C3FCAAB49172B /* [CP] Check Pods Manifest.lock */,
 				3400A8041CEB54A6008A0BC7 /* Sources */,
 				3400A8051CEB54A6008A0BC7 /* Frameworks */,
-				839F2396F1CDC032167AC3AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +242,10 @@
 					ProjectRef = 34434E261D6F5EA300BF5063 /* QBImagePicker.xcodeproj */;
 				},
 				{
+					ProductGroup = 51AD63C51E8D545700F27262 /* Products */;
+					ProjectRef = 51AD63C41E8D545700F27262 /* React.xcodeproj */;
+				},
+				{
 					ProductGroup = 5167AF681E8D460F008C7C0F /* Products */;
 					ProjectRef = 5167AF671E8D460F008C7C0F /* RSKImageCropper.xcodeproj */;
 				},
@@ -199,40 +272,63 @@
 			remoteRef = 5167AF6B1E8D460F008C7C0F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		51AD63D01E8D545700F27262 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 51AD63CF1E8D545700F27262 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51AD63D21E8D545700F27262 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 51AD63D11E8D545700F27262 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51AD63D41E8D545700F27262 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 51AD63D31E8D545700F27262 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51AD63D61E8D545700F27262 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 51AD63D51E8D545700F27262 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51AD63D81E8D545700F27262 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 51AD63D71E8D545700F27262 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51AD63DA1E8D545700F27262 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 51AD63D91E8D545700F27262 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51AD63DC1E8D545700F27262 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 51AD63DB1E8D545700F27262 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51AD63DE1E8D545700F27262 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 51AD63DD1E8D545700F27262 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5033EC66124C3FCAAB49172B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		839F2396F1CDC032167AC3AD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imageCropPicker/Pods-imageCropPicker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3400A8041CEB54A6008A0BC7 /* Sources */ = {
